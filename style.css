@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Open+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 109vh;
+    z-index: -1;
+}
+
+.nav-bar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+
+}
+
+.fire{
+    fill: white;
+    margin-top: 22px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    float:left;
+    opacity: 90%;
+   
+
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    font-family:sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    opacity: 80%;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.menu{
+    width: 450px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    opacity: 80%;
+    font-family: sans-serif;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    font-size: large;
+    color: rgb(145, 255, 55);
+}
+
+.line{
+    opacity: 40%;
+}
+
+.content-container{
+    text-align: center;
+    margin-top:35vh;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+}
+
+.content-container h1{
+    position: relative;
+    font-weight: 100;
+    font-size: 110px;
+    letter-spacing: 2px;
+}
+
+.content-container p{
+    font-size: 15px;
+    opacity: 85%;
+}
+
+.engageBtn button{
+    font-family:sans-serif;
+    background-color: rgba(145, 255, 20, 0.89);
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.engageBtn button:hover{
+    cursor: pointer;
+}
